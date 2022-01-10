@@ -104,8 +104,8 @@ async def status_message_f(
 
         ms_g = (
             f"<b>𝗕𝗼𝘁 𝗨𝗽𝘁𝗶𝗺𝗲</b>: <code>{hr} : {mi} : {se}</code>\n"
-            f"<b>TOTAL:</b> <code>{total}</code> 
-            f"<b>USED:</b> <code>{used}</code> 
+            f"<b>TOTAL:</b> <code>{total}</code>\n" 
+            f"<b>USED:</b> <code>{used}</code>\n"
             f"<b>FREE:</b> <code>{free}</code>\n"
             f"<b>𝗥𝗔𝗠:</b> <code>{ram}%</code> <b>𝗖𝗣𝗨:</b> <code>{cpu}%</code>\n"
         )
